@@ -1,0 +1,101 @@
+
+*{
+	box-sizing: border-box;
+	font-family: Times, "Times New Roman", serif;
+}
+h1{
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.colorp1{
+	background-color: #f77777;
+}
+.colorp2{
+	background-color: #ed2b2b;
+	color:white;
+}
+.colorp3{
+	background-color: #f6fc79;
+}
+.p1{
+	position: relative;
+	display: block;
+	text-align: center;
+	width:30%;
+	margin: 0px 0px 0px 70%;
+	border:1px solid black;
+	padding: 3% 5% 3% 5%;
+	font-weight: bold;
+}
+.background-color{
+	background-color: gray;
+}
+.spacing-bottom{
+	margin-bottom: 15px;
+}
+.p2{
+	clear:both;
+	width:90%;
+	height: 20%;
+	font-family: sans-serif;
+	color: black;
+	font-weight: 600;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.row{
+	width: 100%;
+}
+
+/*desktop users 992px and above*/
+@media(min-width: 992px){
+	.col-lg-4{
+		float:left;
+		border:1px solid black;
+		width:31%;
+		margin-right: 2%;
+	}
+}
+
+/*tablet users between 768px and 991px*/
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		float:left;
+		border:1px solid black;
+		width:48%;
+		margin-right: 2%;
+	}
+	.col-md-12{
+		float:left;
+		border:1px solid black;
+		width:98%;
+	}
+}
+/*mobile users between less than 767px*/
+@media(max-width: 767px){
+	.col-sm-12{
+	float:left;
+	border:1px solid black;
+	width:100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
